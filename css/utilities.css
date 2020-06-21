@@ -1,0 +1,44 @@
+.text-primary {
+  color: lightgreen;
+}
+h1 h2 {
+  font: bold;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background: #28a745;
+  color: #f4f4f4;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: #57f37b;
+  color: #333;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 30px;
+  padding: 1rem 0;
+}
+
+h4 {
+  font-weight: bold;
+}

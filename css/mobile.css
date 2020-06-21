@@ -1,0 +1,94 @@
+@media (max-width: 500px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+  }
+  .nav {
+    padding: 20px 0;
+  }
+  #navbar .nav ul li {
+    padding: 0;
+  }
+
+  #home .content h1 {
+    font-size: 3rem;
+  }
+  #home .content p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+  /* Main */
+  #about {
+    padding: 0;
+  }
+  #about .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-b .img-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-text .img {
+    width: 100%;
+  }
+  .img-text .text {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  #cases .all-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .all-img .photo {
+    max-width: 500px;
+  }
+
+  #blog .img-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #team .people {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .contact-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .contact-img .img {
+    width: 100%;
+  }
+
+  .contact-img .form {
+    width: 100%;
+  }
+  .contact-form {
+    padding: 0;
+  }
+
+  /* Blog */
+
+  .blog-container {
+    padding-bottom: 10px;
+  }
+
+  .blog-container .column {
+    width: 100%;
+  }
+
+
+  .post {
+    padding: 5rem 1rem;
+  }
+}
